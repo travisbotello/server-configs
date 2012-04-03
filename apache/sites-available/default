@@ -3,7 +3,7 @@
 
         DocumentRoot /var/www/default/webroot
         <Directory /var/www/default/webroot>
-                Options Indexes FollowSymLinks MultiViews
+                Options FollowSymLinks
                 AllowOverride None
                 Order allow,deny
                 allow from all
