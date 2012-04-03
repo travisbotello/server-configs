@@ -1,7 +1,7 @@
 #!/bin/bash
 # Updates sites-available/default with the htaccess file from h5bp's main repo
 #
-# Download the raw .htaccess file from github
+# Download the raw .htaccess file from the html5-boilerplate project
 # Indent the whole contents to the same depth as the placeholder comment it is going to be injected into
 # Splice the contents of the htaccess file inbetween the two comment markers in sites-available/default
 # Output to a temporary file, and then replace the original (because you can't do in-place updates with
