@@ -13,4 +13,4 @@ awk -v htaccess=.htaccess '
 	/### END .htaccess file contents ###/ {step=0}
 	step {next}
 	{print}
-' sites-available/default > /tmp/h5bp-default && mv /tmp/h5bp-default sites-available/default
+' sites-available/default > /tmp/h5bp-default && mv /tmp/h5bp-default sites-available/default && rm .htaccess
