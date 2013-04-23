@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 Best-practice server configuration for Apache + mod_pagespeed to help improve site performance.
 =======
-# [H5BP](http://h5bp.github.com) Server Configs
+# Based on [H5BP](http://h5bp.github.com) Server Configs
 
 *Best-practice server configurations* to help improve site performance.
 
